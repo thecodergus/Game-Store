@@ -1,0 +1,40 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Navegação</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Loja Basica para AMS</a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/loja">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Carrinho
+                        <span class="badge">{{session.cart.totalQty}}</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> Menu de Usuário <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        {{# if login }}
+                            <li><a href="/usuario/perfil">Perfil de Usuário</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/usuario/sair">Sair</a></li>
+                        {{ else }}
+                            <li><a href="/usuario/inscrever">Criar Conta</a></li>
+                            <li><a href="/usuario/logar">Entrar</a></li>
+                        {{/if}}
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
