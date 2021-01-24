@@ -1,6 +1,6 @@
 # Game-Store
 
-Trabalho Final desenvolvido em 2018-1 para materia de analise e desenvolvimento de sistema. Trata se de um pequeno sistema de compra de jogos baseado em NodeJS e MongoDB
+Trabalho Final desenvolvido no primeiro semestre de 2018 para a materia de analise e desenvolvimento de sistemas. Trata se de um pequeno sistema de compra de jogos baseado em NodeJS e MongoDB.
 
 Requerimentos:
 
