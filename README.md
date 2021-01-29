@@ -4,5 +4,9 @@ Trabalho Final desenvolvido no primeiro semestre de 2018 para a materia de anali
 
 Requerimentos:
 
-- NodeJS (versão 13.0 ou superior)
+- NodeJS 13.0
 - MongoDB
+
+Modulos NPM:
+- Express 4.16.*
+- Mongoose 5.1.*
