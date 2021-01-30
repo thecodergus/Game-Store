@@ -6,6 +6,7 @@ Requerimentos:
 
 - NodeJS 13.0
 - MongoDB
+- Bootstrap 3
 
 Modulos NPM:
 - Express 4.16.*
