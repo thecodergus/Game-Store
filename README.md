@@ -4,8 +4,8 @@ Trabalho Final desenvolvido no primeiro semestre de 2018 para a materia de anali
 
 Requerimentos:
 
-- NodeJS 13.0
-- MongoDB
+- NodeJS 9.4
+- MongoDB 3.6
 - Bootstrap 3
 
 Modulos NPM:
